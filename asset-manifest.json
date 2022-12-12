@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Forecastinator/static/css/main.764ae110.css",
+    "main.js": "/Forecastinator/static/js/main.ab7bdec0.js",
+    "static/js/787.bdb0b3bd.chunk.js": "/Forecastinator/static/js/787.bdb0b3bd.chunk.js",
+    "static/media/YahyaN.png": "/Forecastinator/static/media/YahyaN.349df33bb4db93157602.png",
+    "static/media/sun.png": "/Forecastinator/static/media/sun.a7683a4b1b506a9b316d.png",
+    "static/media/illustration1.svg": "/Forecastinator/static/media/illustration1.f549897936c70f4dca1b39cefa243590.svg",
+    "index.html": "/Forecastinator/index.html",
+    "main.764ae110.css.map": "/Forecastinator/static/css/main.764ae110.css.map",
+    "main.ab7bdec0.js.map": "/Forecastinator/static/js/main.ab7bdec0.js.map",
+    "787.bdb0b3bd.chunk.js.map": "/Forecastinator/static/js/787.bdb0b3bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.764ae110.css",
+    "static/js/main.ab7bdec0.js"
+  ]
+}
