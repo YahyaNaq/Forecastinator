@@ -1,0 +1,107 @@
+// export default function makeOptions (locale, theme, showTimes, bounds) {
+//   const timeAxis = {
+//     axis: 'x',
+//     type: 'time',
+//     bounds: 'data',
+//     time: {
+//       displayFormats: {
+//         hour: 'H:mm'
+//       },
+//       unit: 'hour'
+//     },
+//     ticks: {
+//       display: showTimes,
+//       color: theme.chartTextColor
+//     },
+//     adapters: {
+//       date: {
+//         locale: dateFnsLocales[locale]
+//       }
+//     },
+//     grid: {
+//       borderWidth: 0,
+//       color: theme.chartGridColor,
+//       tickColor: ''
+//     }
+//   }
+//   const daysAxis = {
+//     axis: 'x',
+//     type: 'time',
+//     min: bounds.start,
+//     max: bounds.end,
+//     time: {
+//       displayFormats: {
+//         day: 'EEE'
+//       },
+//       unit: 'day'
+//     },
+//     ticks: {
+//       color: theme.chartTextColor
+//     },
+//     adapters: {
+//       date: {
+//         locale: dateFnsLocales[locale]
+//       }
+//     },
+//     position: 'top',
+//     grid: {
+//       borderWidth: 0,
+//       color: theme.chartTextColor,
+//       lineWidth: 3
+//     }
+//   }
+//   const tempAxis = {
+//     axis: 'y',
+//     type: 'linear',
+//     title: {
+//       display: true,
+//       text: 'ÂºC',
+//       color: colors.temp
+//     },
+//     ticks: {
+//       callback: Math.round,
+//       color: colors.temp
+//     },
+//     grid: {
+//       display: false
+//     }
+//   }
+//   const percentAxis = {
+//     axis: 'y',
+//     type: 'linear',
+//     position: 'right',
+//     title: {
+//       display: true,
+//       text: '%',
+//       color: colors.pop
+//     },
+//     ticks: {
+//       callback: Math.round,
+//       color: colors.pop
+//     },
+//     grid: {
+//       display: false
+//     }
+//   }
+//   return {
+//     animation: false,
+//     responsive: true,
+//     maintainAspectRatio: false,
+//     locale,
+//     scales: {
+//       timeAxis,
+//       daysAxis,
+//       tempAxis,
+//       percentAxis
+//     },
+//     parsing: false,
+//     plugins: {
+//       legend: {
+//         display: true,
+//         labels: {
+//           color: theme.chartTextColor
+//         }
+//       }
+//     }
+//   }
+// }
